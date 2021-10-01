@@ -36,3 +36,12 @@ nav:
 # Theme
 theme:
   name: material
+  language: 'zh'
+  palette:
+    primary: 'white'
+    accent: 'red'
+  features:
+    - navigation.tabs
+  font:
+    text: 'Fira Sans'
+    code: 'Fira Mono'
