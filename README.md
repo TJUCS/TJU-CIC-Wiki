@@ -16,7 +16,7 @@
 
 暂时未使用 Github Action 自动化部署，如需查看，请使用mkdocs
 
-```bash
+```pibash
 $ git clone git@github.com:TJUCS/TJU-CIC-Wiki.git
 $ pip install mkdocs
 $ pip install mkdocs-material
