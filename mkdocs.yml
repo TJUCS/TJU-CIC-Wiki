@@ -46,7 +46,7 @@ theme:
   language: 'zh'
   palette:
     primary: 'white'
-    accent: 'red'
+    accent: 'blue'
   icon:
     repo: fontawesome/brands/github-square
   features:
@@ -62,6 +62,48 @@ extra:
     language: 'jp'
   copyright: '<a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh">CC BY-SA 4.0</a> 和 <a href="https://github.com/zTrix/sata-license">SATA</a>'
 
+extra_javascript:
+  - '_static/js/extra.js'
+  - 'https://cdn.jsdelivr.net/npm/mathjax@2.7.5/MathJax.js?config=TeX-MML-AM_CHTML'
+
+extra_css:
+  - '_static/css/extra.css'
+
+
 # Plugin
 plugins:
   - search
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+      linenums: true
+  - def_list
+  - footnotes
+  - meta
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.highlight:
+      linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.snippets
+  - pymdownx.progressbar
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: math
+          class: arithmatex
+          format: !!python/name:pymdownx.arithmatex.fence_mathjax_format
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
