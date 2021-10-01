@@ -36,3 +36,7 @@ nav:
 # Theme
 theme:
   name: material
+  language: 'zh'
+  palette:
+    primary: 'white'
+    accent: 'red'
