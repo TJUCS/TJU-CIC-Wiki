@@ -1,3 +1,14 @@
-site_name: Wiki
+# Project Information
+site_name: TJU CIC Wiki
+site_description: 北洋智算 Wiki 是由北洋智算学生自发维护的知识整合站点，帮助北洋学生提升自我，更好解决繁杂的事物。
+strict: false
+
+# Contents
+nav:
+  - 简介:
+    - Getting Started: index.md
+    - 关于本项目: intro/about.md
+
+# Theme
 theme:
   name: material
