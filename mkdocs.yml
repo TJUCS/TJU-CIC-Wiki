@@ -1,7 +1,14 @@
 # Project Information
 site_name: TJU CIC Wiki
+site_author: trswnca
 site_description: 北洋智算 Wiki 是由北洋智算学生自发维护的知识整合站点，帮助北洋学生提升自我，更好解决繁杂的事物。
 strict: false
+
+copyright: 'Copyright &copy; 2021 - TJUCS Team'
+
+# Repository
+repo_name: 'TJUCS/TJU-CIC-Wiki'
+repo_url: 'https://github.com/TJUCS/TJU-CIC-Wiki'
 
 # Contents
 nav:
@@ -40,8 +47,21 @@ theme:
   palette:
     primary: 'white'
     accent: 'red'
+  icon:
+    repo: fontawesome/brands/github-square
   features:
     - navigation.tabs
+    - search.suggest
+    - search.share
   font:
     text: 'Fira Sans'
     code: 'Fira Mono'
+
+extra:
+  search:
+    language: 'jp'
+  copyright: '<a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh">CC BY-SA 4.0</a> 和 <a href="https://github.com/zTrix/sata-license">SATA</a>'
+
+# Plugin
+plugins:
+  - search
