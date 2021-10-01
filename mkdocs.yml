@@ -21,7 +21,7 @@ nav:
     - 操作系统: cs/os.md
     - 算法设计与分析: cs/algorithm.md
     - 数字逻辑与数字系统: cs/digitial.md
-    - 并行计算: cs/paraller_computing.md
+    - 并行计算: cs/parallel_computing.md
     - 数据库原理: cs/db.md
     - 计算机网络: cs/network.md
     - 人工智能基础: cs/ai_basic.md

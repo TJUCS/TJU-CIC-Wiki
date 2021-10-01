@@ -10,7 +10,7 @@
 大一下：  
 - [程序设计实践](cpp_practice.md)  
 - [计算机组成原理](principle_of_computer_composition.md)  
-- [数据结构](data_structer.md)   
+- [数据结构](data_structure.md)   
 
 大二上：  
 - [计算机系统实践](practice_of_computer_composition.md)   
@@ -28,7 +28,7 @@
 - [计算机网络实践](network_practice.md)   
 - [数据库实践](db_practice.md)  
 - [计算机图形学](graphics.md)  
-- [计算机体系结构](computer_archietcture.md)  
+- [计算机体系结构](computer_architecture.md)  
 - [异构计算](heter_computing.md)   
 - [自然语言处理](nlp.md)   
 - [大数据分析理论与方法](big_data.md)
