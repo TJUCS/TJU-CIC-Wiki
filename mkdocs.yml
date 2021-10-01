@@ -10,9 +10,28 @@ nav:
     - 关于本项目: intro/about.md
   - 基础课程:
     - 目录: basic/index.md
-    
+
   - 计算机科学与技术:
     - 目录: cs/index.md
+    - 程序设计原理: cs/cpp_programming.md
+    - 程序设计实践: cs/cpp_practice.md
+    - 计算机组成原理: cs/principle_of_computer_composition.md
+    - 数据结构: cs/data_structer.md
+    - 计算机系统实践: cs/practice_of_computer_composition.md
+    - 操作系统: cs/os.md
+    - 算法设计与分析: cs/algorithm.md
+    - 数字逻辑与数字系统: cs/digitial.md
+    - 并行计算: cs/paraller_computing.md
+    - 数据库原理: cs/db.md
+    - 计算机网络: cs/network.md
+    - 人工智能基础: cs/ai_basic.md
+    - 计算机网络实践: cs/network_practice.md
+    - 数据库实践: cs/db_practice.md
+    - 计算机图形学: cs/graphics.md
+    - 计算机体系结构: cs/computer_archietcture.md
+    - 异构计算: cs/heter_computing.md
+    - 自然语言处理: cs/nlp.md
+    - 大数据分析理论与方法: cs/big_data.md
 
 # Theme
 theme:
