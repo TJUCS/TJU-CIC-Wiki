@@ -1,17 +1,13 @@
-# Welcome to MkDocs
+# 欢迎来到 TJU CIC Wiki!
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+受[清华大学相关项目](https://github.com/PKUanonym/REKCARC-TSC-UHT)启发，创立了本项目。
 
-## Commands
+资料、选课、考试、学习攻略/资源汇总
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## 许可
 
-## Project layout
+由贡献者编写部分的许可如下：
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+[(Creative Commons BY-SA 4.0) 知识共享署名 - 相同方式共享 4.0 国际许可协议](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)
+
+其他部分的版权归属于其各自的作者。资料仅供参考，请自己判断其适用性。
