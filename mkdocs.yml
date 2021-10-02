@@ -61,6 +61,10 @@ theme:
   font:
     text: 'Fira Sans'
     code: 'Fira Mono'
+  logo:
+    icon: 'school'
+  feature:
+    tabs: true
 
 extra:
   search:
