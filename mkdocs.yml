@@ -87,7 +87,6 @@ extra_css:
 # Plugin
 plugins:
   - search
-  - git-revision-date
 
 markdown_extensions:
   - admonition
