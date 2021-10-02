@@ -2,6 +2,8 @@
 site_name: TJU CIC Wiki
 site_author: trswnca
 site_description: 北洋智算 Wiki 是由北洋智算学生自发维护的知识整合站点，帮助北洋学生提升自我，更好解决繁杂的事物。
+edit_uri: edit/master/docs/
+
 strict: false
 
 copyright: 'Copyright &copy; 2021 - TJUCS Team'
@@ -42,7 +44,10 @@ nav:
 
 # Theme
 theme:
-  name: material
+  name: null
+  custom_dir: 'mkdocs-material/material'
+  static_templates:
+    - 404.html
   language: 'zh'
   palette:
     primary: 'white'
@@ -73,6 +78,7 @@ extra_css:
 # Plugin
 plugins:
   - search
+  - git-revision-date
 
 markdown_extensions:
   - admonition
