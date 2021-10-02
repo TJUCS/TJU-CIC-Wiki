@@ -1,7 +1,16 @@
 # Project Information
 site_name: TJU CIC Wiki
+site_author: trswnca
 site_description: 北洋智算 Wiki 是由北洋智算学生自发维护的知识整合站点，帮助北洋学生提升自我，更好解决繁杂的事物。
+edit_uri: edit/master/docs/
+
 strict: false
+
+copyright: 'Copyright &copy; 2021 - TJUCS Team'
+
+# Repository
+repo_name: 'TJUCS/TJU-CIC-Wiki'
+repo_url: 'https://github.com/TJUCS/TJU-CIC-Wiki'
 
 # Contents
 nav:
@@ -40,13 +49,76 @@ nav:
 
 # Theme
 theme:
-  name: material
+  name: null
+  custom_dir: 'mkdocs-material/material'
+  static_templates:
+    - 404.html
   language: 'zh'
   palette:
     primary: 'white'
-    accent: 'red'
+    accent: 'blue'
+  icon:
+    repo: fontawesome/brands/github-square
   features:
     - navigation.tabs
+    - search.suggest
+    - search.share
   font:
     text: 'Fira Sans'
     code: 'Fira Mono'
+  logo:
+    icon: 'school'
+  feature:
+    tabs: true
+
+extra:
+  search:
+    language: 'jp'
+  copyright: '<a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh">CC BY-SA 4.0</a> 和 <a href="https://github.com/zTrix/sata-license">SATA</a>'
+
+extra_javascript:
+  - '_static/js/extra.js'
+  - 'https://cdn.jsdelivr.net/npm/mathjax@2.7.5/MathJax.js?config=TeX-MML-AM_CHTML'
+
+extra_css:
+  - '_static/css/extra.css'
+
+
+# Plugin
+plugins:
+  - search
+  - git-revision-date
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+      linenums: true
+  - def_list
+  - footnotes
+  - meta
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.highlight:
+      linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.snippets
+  - pymdownx.progressbar
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: math
+          class: arithmatex
+          format: !!python/name:pymdownx.arithmatex.fence_mathjax_format
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
