@@ -66,8 +66,6 @@ theme:
   font:
     text: 'Fira Sans'
     code: 'Fira Mono'
-  logo:
-    icon: 'school'
   feature:
     tabs: true
 
@@ -83,10 +81,14 @@ extra_javascript:
 extra_css:
   - '_static/css/extra.css'
 
-
 # Plugin
 plugins:
   - search
+  - git-authors
+  - git-revision-date-localized:
+      fallback_to_build_date: true
+      enable_creation_date: true
+
 
 markdown_extensions:
   - admonition
