@@ -15,3 +15,6 @@ C++ 基础编程
 - Effective C++
 - Effective Modern C++
 - [Modern C++ Tutorial](https://github.com/changkun/modern-cpp-tutorial)
+
+## 贡献者
+- KuangjuX
