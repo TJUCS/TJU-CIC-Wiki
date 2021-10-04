@@ -26,7 +26,15 @@ CSAPP 课后的几次实验:
 
 其中，Data Lab 考察各种位运算的奇技淫巧，比较烧脑，只能说做不出来就去看看答案吧（我就做不出来）。其他几个实验需要好好做做，对于程序的底层理解很有帮助。
 
-- [KuangjuX/CSAPP-Lab](https://github.com/KuangjuX/CSAPP-Lab)
+- [KuangjuX/CSAPP-Lab](https://github.com/KuangjuX/CSAPP-Lab)   
+
+
+我写的一系列计组的博客的集合(顺便给自己引一波流):   
+
+- [Data Lab](http://blog.kuangjux.top/2020/03/10/Data-Lab/)
+- [Attack Lab](http://blog.kuangjux.top/2020/04/02/Attack-Lab/)
+- [Bomb Lab](http://blog.kuangjux.top/2020/04/05/Bomb-Lab/)
+- [Cache Lab](http://blog.kuangjux.top/2020/04/29/Cache-Lab/)
 
 ## 推荐教材
 - CSAPP(深入理解计算机系统)
